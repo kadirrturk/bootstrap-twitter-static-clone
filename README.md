@@ -4,7 +4,7 @@ This project contains a static clone of the Twitter homepage created using Boots
 
 ## Preview
 
-![Twitter Clone]([https://cdn.discordapp.com/attachments/873964341379096596/1125829028264288296/image.png])
+![Twitter Clone](https://cdn.discordapp.com/attachments/873964341379096596/1125829028264288296/image.png)
 
 ## Project Structure
 
