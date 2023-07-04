@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Anasayfa / Twitter</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <!-- Bootstrap 5.3 CDN Connections -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-md container-fluid">
+        <div class="row">
+            <div
+                class="col-sm-2 d-sm-block col-md-3 col-lg-3 d-none d-flex flex-column text-sm-end text-md-start align-items-lg-start border-end left_side_bar">
+                <div class="d-flex align-items-center">
+                    <span><i class="bi-twitter bi-brands display-6 text-info py-3"></i></span>
+                </div>
+                <div class="d-flex align-items-center">
+                    <span><i class="bi-house bi-solid fs-3 py-3"></i></span>
+                    <p class="d-none d-md-block fw-bold fs-4 pt-3 ps-2">Anasayfa</p>
+                </div>
+                <div class="d-flex align-items-center">
+                    <span><i class="bi-solid bi-search fs-4 py-3 d-none d-md-block"></i></span>
+                    <p class="d-none d-md-block fs-4 pt-3 ps-2">Keşfet</p>
+                </div>
+                <div class="d-flex align-items-center">
+                    <span><i class="bi-solid bi-bell fs-3 py-3"></i></span>
+                    <p class="d-none d-md-block fs-4 pt-3 ps-2">Bildirimler</p>
+                </div>
+                <div class="d-flex align-items-center">
+                    <span><i class="bi-solid bi-envelope fs-4 py-3"></i></span>
+                    <p class="d-none d-md-block fs-4 pt-3 ps-2">Mesajlar</p>
+                </div>
+                <div class="d-flex align-items-center">
+                    <span><i class="bi-solid bi-list-check fs-4 py-3"></i></span>
+                    <p class="d-none d-md-block fs-4 pt-3 ps-2">Listeler</p>
+                </div>
+                <div class="d-flex align-items-center">
+                    <span><i class="bi-solid bi-bookmark fs-4 py-3"></i></span>
+                    <p class="d-none d-md-block fs-4 pt-3 ps-2">Yer İşaretleri</p>
+                </div>
+                <div class="d-flex align-items-center">
+                    <span><i class="bi-solid bi-patch-check fs-4 py-3"></i></span>
+                    <p class="d-none d-md-block fs-4 pt-3 ps-2">Onaylanmış</p>
+                </div>
+                <div class="d-flex align-items-center">
+                    <span><i class="bi-solid bi-person-fill fs-4 py-3"></i></span>
+                    <p class="d-none d-md-block fs-4 pt-3 ps-2">Profil</p>
+                </div>
+                <div class="d-flex align-items-center">
+                    <span><i class="bi-solid bi-three-dots fs-4 py-3"></i></span>
+                    <p class="d-none d-md-block fs-4 pt-3 ps-2">Daha fazla</p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-10 col-md-9 col-lg-6 side-bar border border-top-0">
+                <div class="row d-flex justify-content-between align-items-center ps-1">
+                    <div class="col-1 pt-2">
+                        <div class="fs-4 fw-bold">Anasayfa</div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col pt-2">
+                        <div class="row">
+                            <div class="col-2">
+                                <img class="rounded-circle"src="assets/person.png" alt="" height="50px">
+                            </div>
+                            <div class="col-9 col-sm-10">
+                                <input class="border-0 form-control-lg" type="text" placeholder="Neler oluyor?" style="margin-left: -60px;">
+                                <div class="ps-3 d-flex text-info">
+                                    <p><span><i class="bi-solid bi-earth-americas"></i></span></p>
+                                </div>
+                                <div class="row pb-2 justify-content-center">
+                                    <div class="col-9 text-info">
+                                        <span class="ps-3" style="margin-left: -82px;"><i class="bi-solid bi-image"></i></span>
+                                        <span class="ps-3"><i class="bi-solid bi-gift"></i></span>
+                                        <span class="ps-3"><i class="bi-solid bi-list-ul"></i></span>
+                                        <span class="ps-3"><i class="bi-solid bi-filetype-gif"></i></span>
+                                        <span class="ps-3"><i class="bi-solid bi-emoji-smile"></i></span>
+                                        <span class="ps-3"><i class="bi-solid bi-calendar-date"></i></span>
+                                    </div>
+                                    <div class="col-3 col-sm-2">
+                                        <a class="text-decoration-none fw-bold text-white bg-info fs-6 py-2 px-3 rounded-pill"
+                                            href="#">Tweetle</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row d-flex justify-content-between align-items-center border-bottom border">
+                            <div class="col-11 col-sm-10 ps-5 pt-1 d-flex pt-2" style="margin-left: 248px; margin-top: 10px;">
+                                <span><i class="bi-solid bi-comment"></i></span>
+                                <p class="ps-1"><span class="text-info fw-bold ">Daha fazla</span></p>
+                            </div>
+                            <div class="col-1 col-sm-2 text-end fs-5 pt-2 ps-2">
+                                <span><i class="bi-solid bi-xmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="row mt-1 d-flex border-">
+                            <div class="col-1 mt-2">
+                                <img class="rounded-circle" src="assets/person.png" alt="" height="50px">
+                            </div>
+                            <div class="col-11">
+                                <div class="row d-flex align-items-center">
+                                    <div class="col-12 col-md-10 pt-2">
+                                        <div>
+                                            <p><span class="fw-bold">Lorem Ipsum </span>@lorem · 23h</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-2 text-end">
+                                        <div><span><i class="bi-solid bi-ellipsis fs-5 py-3"></i></span></div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    Lorem ipsum dolor sit, amet <span class="text-info">#consectetur</span> adipisicing
+                                    elit. Quidem fuga obcaecati.
+                                    <br>
+                                    <div class="row pt-4">
+                                        <div class="col">
+                                            <div class="d-flex align-items-center">
+                                                <i class="bi-solid bi-chat"></i>
+                                                <span class="ps-2">1.091</span>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="d-flex align-items-center">
+                                                <i class="bi-solid bi-share-fill"></i>
+                                                <span class="ps-2">902</span>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="d-flex align-items-center">
+                                                <i class="bi-solid bi-heart"></i>
+                                                <span class="ps-2">5.786</span>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="d-flex align-items-center">
+                                                <i class="bi-solid bi-align-bottom"></i>
+                                                <span class="ps-2">25.251</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-1 d-flex  ">
+                            <div class="col-1 mt-2">
+
+                                <img class="rounded-circle" src="assets/person.png" alt="" height="50px">
+                            </div>
+                            <div class="col-11 ">
+                                <div class="row d-flex justify-content-between align-items-center ps-1">
+                                    <div class="col-10 pt-2 ">
+                                        <div>
+                                            <p><span class="fw-bold">Lorem Ipsum </span>@lorem · 23h</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-1 me-2 ps-0">
+                                        <div><span><i class="bi-solid bi-ellipsis fs-5 py-3"></i></span></div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, quos.
+                                    <div class="row pt-4">
+                                        <div class="col">
+                                            <div class="d-flex align-items-center">
+                                                <i class="bi-solid bi-chat"></i>
+                                                <span class="ps-2">4.456</span>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="d-flex align-items-center">
+                                                <i class="bi-solid bi-share-fill"></i>
+                                                <span class="ps-2">1.857</span>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="d-flex align-items-center">
+                                                <i class="bi-solid bi-heart"></i>
+                                                <span class="ps-2">12.026</span>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="d-flex align-items-center">
+                                                <i class="bi-solid bi-align-bottom"></i>
+                                                <span class="ps-2">21.714</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="row mt-1 d-flex  ">
+                            <div class="col-1 mt-2">
+
+                                <img class="rounded-circle" src="assets/person.png" alt="" height="50px">
+                            </div>
+                            <div class="col-11 ">
+                                <div class="row d-flex justify-content-between align-items-center ps-1">
+                                    <div class="col-10 pt-2 ">
+                                        <div>
+                                            <p><span class="fw-bold">Lorem Ipsum </span>@lorem · 23h</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-1 me-2 ps-0">
+                                        <div><span><i class="bi-solid bi-ellipsis fs-5 py-3"></i></span></div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    <br>
+                                    <div class="row pt-4">
+                                        <div class="col">
+                                            <div class="d-flex align-items-center">
+                                                <i class="bi-solid bi-chat"></i>
+                                                <span class="ps-2">6.672</span>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="d-flex align-items-center">
+                                                <i class="bi-solid bi-share-fill"></i>
+                                                <span class="ps-2">230</span>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="d-flex align-items-center">
+                                                <i class="bi-solid bi-heart"></i>
+                                                <span class="ps-2">1.007</span>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="d-flex align-items-center">
+                                                <i class="bi-solid bi-align-bottom"></i>
+                                                <span class="ps-2">17.002</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-1 d-flex">
+                            <div class="col-1 mt-2">
+                                <img class="rounded-circle" src="assets/person.png" alt="" height="50px">
+                            </div>
+                            <div class="col-11 ">
+                                <div class="row d-flex justify-content-between align-items-center ps-1">
+                                    <div class="col-10 pt-2 ">
+                                        <div>
+                                            <p><span class="fw-bold">Elon Musk </span>@elonmusk · 23s</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-1 me-2 ps-0">
+                                        <div><span><i class="bi-solid bi-ellipsis fs-5 py-3"></i></span></div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    As X Group Company, we donated 10 Million Dollars for the <span
+                                        class="text-info">#Earthquake</span> in Turkey and Syria.
+                                    <br>
+                                    <div class="row pt-4">
+                                        <div class="col">
+                                            <div class="d-flex align-items-center">
+                                                <i class="bi-solid bi-chat"></i>
+                                                <span class="ps-2">8.901</span>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="d-flex align-items-center">
+                                                <i class="bi-solid bi-share-fill"></i>
+                                                <span class="ps-2">772</span>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="d-flex align-items-center">
+                                                <i class="bi-solid bi-heart"></i>
+                                                <span class="ps-2">6.519</span>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="d-flex align-items-center">
+                                                <i class="bi-solid bi-align-bottom"></i>
+                                                <span class="ps-2">19.121</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 d-none d-lg-block  w-25 h-25 right_side_bar">
+                <div class="">
+                    <div class="bg-opacity-10 bg-black rounded-pill">
+                        <div class="row d-flex align-items-center ">
+                            <div class="col-2 text-end fs-4">
+                                <span><i class="bi-solid bi-magnifying-glass ps-4"></i></span>
+                            </div>
+                            <div class="col-10"><input type="text"
+                                    class="form-control-lg border-0 me-1 w-75 bg-transparent"
+                                    placeholder="    Twitter'da Ara">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row bg-opacity-10 bg-black mx-1 my-2 pb-3 rounded-3">
+                        <div class="col">
+                            <div class="trends">
+                                <p class="fs-5 fw-bold py-2">Onaylanmış Hesap Sahibi Ol</p>
+                                <p class="fs-6 fw-bold" style="margin-top: -20px;">Yeni özelliklerden yararlanmak için abone ol.</p>
+                                <a class="text-decoration-none fw-bold text-white bg-info fs-6 py-2 px-4 rounded-pill" style="margin-left: 6px;" href="#">Onaylanmış Hesap Sahibi Ol</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row bg-opacity-10 bg-black mx-1 my-2 pb-3 rounded-3">
+                        <div class="col">
+                            <div class="trends">
+                                <p class="fs-6 fw-bold py-2">İlgini çekebilecek gündemler</p>
+                                <div class="row">
+                                    <div class="col-9">
+                                        <p class="m-0">Dünya tarihinde gündemde</p>
+                                    </div>
+                                    <div class="col-3 text-end">
+                                        <span><i class="bi-solid bi-ellipsis pe-2"></i></span>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="fs-6 fw-bold mb-0">#Russia</p>
+                                        <p class="">12.7k Tweets</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-9">
+                                        <p class="m-0">Bilim · Gündemdekiler</p>
+                                    </div>
+                                    <div class="col-3 text-end">
+                                        <span><i class="bi-solid bi-ellipsis pe-2"></i></span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="fs-6 fw-bold mb-0">#NASA</p>
+                                        <p class="">101 B Tweets</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-9">
+                                        <p class="m-0">Bilim · Gündemdekiler</p>
+                                    </div>
+                                    <div class="col-3 text-end">
+                                        <span><i class="bi-solid bi-ellipsis pe-2"></i></span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="fs-6 fw-bold mb-0">#SpaceX</p>
+                                        <p class="">132 B Tweets</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-9">
+                                        <p class="m-0">Amerika tarihinde gündemde</p>
+                                    </div>
+                                    <div class="col-3 text-end">
+                                        <span><i class="bi-solid bi-ellipsis pe-2"></i></span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="fs-6 fw-bold mb-0">#BlackLivesMatter</p>
+                                        <p class="">8,104 Tweets</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-9">
+                                        <p class="m-0">Fransa tarihinde gündemde</p>
+                                    </div>
+                                    <div class="col-3 text-end">
+                                        <span><i class="bi-solid bi-ellipsis pe-2"></i></span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="fs-6 fw-bold mb-0">Miss France</p>
+                                        <p class="">15,2 B Tweet</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-9">
+                                        <p class="m-0">Dünya tarihinde gündemde</p>
+                                    </div>
+                                    <div class="col-3 text-end">
+                                        <span><i class="bi-solid bi-ellipsis pe-2"></i></span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="fs-6 fw-bold mb-0">#Earthquake</p>
+                                        <p class="">500 B Tweet</p>
+                                    </div>
+                                </div> 
+                                <span class="text-info">Daha fazla</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

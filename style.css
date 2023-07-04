@@ -1,0 +1,16 @@
+
+.left_side_bar{
+    position: sticky;
+    top: 0px;
+    height: fit-content;
+}
+
+div.right_side_bar{
+    position: fixed;
+    right: 30px;
+    top: 10px;
+}
+
+input:focus{
+    outline: none;
+}
