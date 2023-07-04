@@ -12,6 +12,13 @@ This project contains a static clone of the Twitter homepage created using Boots
 - `style.css`: Custom CSS styles for the project.
 - `assets/`: Images and other assets used in the project.
 
+## Features
+
+- Responsive design that adapts to different screen sizes
+- Bootstrap components and classes used for consistent styling
+- Custom CSS to match the Twitter homepage layout and appearance
+- No JavaScript used, focusing solely on the frontend
+
 ## How to Run
 
 1. Clone this project to your computer or download it as a ZIP file.
